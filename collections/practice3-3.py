@@ -1,8 +1,8 @@
 #!/bin/python3
 
-prompt = "Enter a number (or the word 'end' to quit): "
+prompt = "Enter a name (or the word 'end' to quit): "
 verify = {""}
-
+duplicate_counter = 0 
 while True:
     data = input(prompt)
     if data == "end":
@@ -16,6 +16,9 @@ while True:
                 verify.add(data)
             #Otherwise, say it is not unique. 
             else:
-                print("Not a Unique Name")
+                duplicate_counter += 1
+                print("Not a Unique Name. Incrementing Counter")
+
 verify.remove("");
 print(verify)
+print("Duplicates Removed: " + str(duplicate_counter))
