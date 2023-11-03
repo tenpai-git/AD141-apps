@@ -9,8 +9,8 @@ echo "#!/usr/bin/python3" >> practice.py
 
 for PRAC in $(seq 1 $EX); do
       echo "Generating Practice File $PRAC for Chapter $CH"
-      cp practice.py practice$CH-$PRAC.py
-      chmod +x practice$CH-$PRAC.py
+      cp practice.py practice$CHex$PRAC.py
+      chmod +x practice$CHex$PRAC.py
 done
 
 echo "Removing Practice Python Generator File"
