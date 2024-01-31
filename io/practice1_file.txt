@@ -1,0 +1,6 @@
+lines
+words
+characters
+lines
+words
+characters
