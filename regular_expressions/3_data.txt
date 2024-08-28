@@ -1,0 +1,6 @@
+11AA Description Text Case 1
+22BB    Description Text Case 2
+33CC                Description Text Case 3
+BBBB Description Text Fail 1
+111B  Description Text Fail 2
+33CC - Description Text Fail 3
